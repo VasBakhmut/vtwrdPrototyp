@@ -1,0 +1,41 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.pnp.*
+
+# Next.js build output (including local verification builds)
+.next/
+.next-*/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment and deployment credentials
+.env*
+!.env.example
+.vercel/
+*.pem
+*.key
+
+# Local logs, reports and temporary files
+*.log
+tmp/
+temp/
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
+.idea/
+
+# Internal project notes / reference and costing exports, not the prototype
+AUDIT-*.md
+PLANNER-*.md
+design-qa.md
+*-internal-*.json
+private/
+confidential/
+
+# Keep pnpm-lock.yaml and public website assets tracked.
